@@ -4,10 +4,10 @@
   "Tags": ["spell", "check", "misspell"],
   "Versions": [
     {
-      "Version": "0.1.0",
-      "Url": "https://github.com/onodera-punpun/micro-misspell-plugin/archive/0.1.0.zip",
+      "Version": "0.2.0",
+      "Url": "https://github.com/Neko-Box-Coder/micro-misspell-plugin/archive/0.2.0.zip",
       "Require": {
-        "micro": ">=1.0.3"
+        "micro": ">=2.0.0"
       }
     }
   ]
