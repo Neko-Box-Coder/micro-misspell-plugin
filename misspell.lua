@@ -22,7 +22,8 @@ end
 function runMisspell()
     micro.CurPane().Buf:ClearMessages("misspell")
     shell.JobSpawn("misspell", {micro.CurPane().Buf.Path}, nil, nil, onExit, "%f:%l:%d+: %m")
-    micro.InfoBar():Message("Running misspell ", micro.CurPane().Buf.Path)
+    -- micro.InfoBar():Message("Running misspell ", micro.CurPane().Buf.Path)
+    micro.Log("Running misspell ", micro.CurPane().Buf.Path)
 end
 
 function split(str, sep)
